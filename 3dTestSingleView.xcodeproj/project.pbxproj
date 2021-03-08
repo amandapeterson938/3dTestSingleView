@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		F05455D125F14106006E73DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05455D025F14106006E73DA /* AppDelegate.swift */; };
 		F05455D325F14106006E73DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05455D225F14106006E73DA /* SceneDelegate.swift */; };
-		F05455D525F14106006E73DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05455D425F14106006E73DA /* ViewController.swift */; };
 		F05455D825F14106006E73DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05455D625F14106006E73DA /* Main.storyboard */; };
 		F05455DA25F14107006E73DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05455D925F14107006E73DA /* Assets.xcassets */; };
 		F05455DD25F14107006E73DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05455DB25F14107006E73DA /* LaunchScreen.storyboard */; };
+		F05455E625F141EA006E73DA /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05455E525F141EA006E73DA /* RobotViewController.swift */; };
+		F0DB715D25F54152005E4B02 /* connectedRobot.scn in Resources */ = {isa = PBXBuildFile; fileRef = F0DB715C25F54152005E4B02 /* connectedRobot.scn */; };
+		F0DB716125F541AB005E4B02 /* connectedRobot2.scn in Resources */ = {isa = PBXBuildFile; fileRef = F0DB716025F541AB005E4B02 /* connectedRobot2.scn */; };
+		F0F0A59A25F4603E00F5414F /* robotSCNCopy.scn in Resources */ = {isa = PBXBuildFile; fileRef = F0F0A59925F4603E00F5414F /* robotSCNCopy.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F05455CD25F14106006E73DA /* 3dTestSingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dTestSingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05455D025F14106006E73DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F05455D225F14106006E73DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F05455D425F14106006E73DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F05455D725F14106006E73DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F05455D925F14107006E73DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05455DC25F14107006E73DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05455DE25F14107006E73DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05455E525F141EA006E73DA /* RobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
+		F0DB715C25F54152005E4B02 /* connectedRobot.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = connectedRobot.scn; sourceTree = "<group>"; };
+		F0DB716025F541AB005E4B02 /* connectedRobot2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = connectedRobot2.scn; sourceTree = "<group>"; };
+		F0F0A59925F4603E00F5414F /* robotSCNCopy.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = robotSCNCopy.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		F05455CF25F14106006E73DA /* 3dTestSingleView */ = {
 			isa = PBXGroup;
 			children = (
+				F0F0A59925F4603E00F5414F /* robotSCNCopy.scn */,
+				F0DB715C25F54152005E4B02 /* connectedRobot.scn */,
+				F0DB716025F541AB005E4B02 /* connectedRobot2.scn */,
 				F05455D025F14106006E73DA /* AppDelegate.swift */,
 				F05455D225F14106006E73DA /* SceneDelegate.swift */,
-				F05455D425F14106006E73DA /* ViewController.swift */,
 				F05455D625F14106006E73DA /* Main.storyboard */,
 				F05455D925F14107006E73DA /* Assets.xcassets */,
 				F05455DB25F14107006E73DA /* LaunchScreen.storyboard */,
 				F05455DE25F14107006E73DA /* Info.plist */,
+				F05455E525F141EA006E73DA /* RobotViewController.swift */,
 			);
 			path = 3dTestSingleView;
 			sourceTree = "<group>";
@@ -126,7 +135,10 @@
 			files = (
 				F05455DD25F14107006E73DA /* LaunchScreen.storyboard in Resources */,
 				F05455DA25F14107006E73DA /* Assets.xcassets in Resources */,
+				F0DB715D25F54152005E4B02 /* connectedRobot.scn in Resources */,
 				F05455D825F14106006E73DA /* Main.storyboard in Resources */,
+				F0DB716125F541AB005E4B02 /* connectedRobot2.scn in Resources */,
+				F0F0A59A25F4603E00F5414F /* robotSCNCopy.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05455D525F14106006E73DA /* ViewController.swift in Sources */,
+				F05455E625F141EA006E73DA /* RobotViewController.swift in Sources */,
 				F05455D125F14106006E73DA /* AppDelegate.swift in Sources */,
 				F05455D325F14106006E73DA /* SceneDelegate.swift in Sources */,
 			);

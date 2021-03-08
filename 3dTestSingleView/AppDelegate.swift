@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //If the ar is playing for a longer amount of time screen will dim this combats that
+        UIApplication.shared.isIdleTimerDisabled = true
+        
         return true
     }
 
